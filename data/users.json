@@ -1,0 +1,176 @@
+[
+  {
+    "id": "pt-in-99214",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@workspace.in",
+    "phone": "+91 98450 12345",
+    "passwordHash": "1bccac04f09874611435565026d13ccf:78ed7a196717f4bb48d6e61a79e9d5f129e8c3ee942a3866ba521b08b990134ac3b544850f882bc3470ee6ff79958e2300bcd8eae0c4f5de72cc1d0a9cd2577c",
+    "dob": "August 12, 1996 (Age 29)",
+    "gender": "Male",
+    "bloodType": "B+",
+    "abhaId": "91-4421-8890-1204",
+    "pinCode": "560103",
+    "city": "Bengaluru, Karnataka (Remote Dev)",
+    "primaryPhysician": "Dr. Ananya Iyer, MD (AIIMS New Delhi)",
+    "allergies": [
+      "Penicillin"
+    ],
+    "chronicConditions": [
+      "Cervical Tech Neck (C5-C6 Posture Strain)",
+      "Severe Vitamin D3 Deficiency (Indoor WFH)",
+      "11-Hour Screen Strain"
+    ],
+    "emailVerified": true,
+    "phoneVerified": true,
+    "createdAt": "2026-01-15T10:00:00.000Z",
+    "updatedAt": "2026-09-04T19:24:27.134Z",
+    "emergencyContact": {
+      "name": "Pooja Sharma",
+      "relationship": "Spouse",
+      "phone": "+91 98450 54321"
+    }
+  },
+  {
+    "id": "pt-in-77312",
+    "name": "Priya Sundaram",
+    "email": "priya.sundaram@tech.in",
+    "phone": "+91 97120 44556",
+    "passwordHash": "f31ab5c34b23a4429aac8a93ce108489:33a22b5ec8bac3f0b7d75c3036394ab4117942ef434aa4b50532f0c1b6d10c83838e34202d6da49456f2dd858bb9101e0b6932bf1746c4adc77d7e6bd1ad0ea5",
+    "dob": "March 24, 2003 (Age 23)",
+    "gender": "Female",
+    "bloodType": "O+",
+    "abhaId": "91-6623-1109-8834",
+    "pinCode": "411014",
+    "city": "Pune, Maharashtra (WFH Intern)",
+    "primaryPhysician": "Dr. Priya Nair, MD (PGIMER Chandigarh)",
+    "allergies": [
+      "Aspirin"
+    ],
+    "chronicConditions": [
+      "UI/UX Design Intern (12h Screen Time)",
+      "Digital Eye Strain & Computer Vision Syndrome",
+      "PG Mess Gastric Acidity (GERD)"
+    ],
+    "emailVerified": true,
+    "phoneVerified": true,
+    "createdAt": "2026-02-10T14:30:00.000Z",
+    "updatedAt": "2026-09-04T19:24:27.173Z",
+    "emergencyContact": {
+      "name": "Karthik Sundaram",
+      "relationship": "Brother",
+      "phone": "+91 97120 99887"
+    }
+  },
+  {
+    "id": "pt-in-55109",
+    "name": "Ramesh Sharma",
+    "email": "ramesh.sharma@familycare.in",
+    "phone": "+91 98220 77112",
+    "passwordHash": "049f80f36b200546711afeb5c234aede:a308c58095cf5951b21594165d9119bba13929ac13cf487062193e64248c9b0826f38a06b78f047dde2d906f19d2424af627132f94a6e60318320000158b2157",
+    "dob": "October 05, 1958 (Age 68)",
+    "gender": "Male",
+    "bloodType": "B+",
+    "abhaId": "91-1124-9988-3401",
+    "pinCode": "411004",
+    "city": "Pune, Maharashtra (Hometown Parent)",
+    "primaryPhysician": "Dr. Rajesh Kulkarni, MS (CMC Vellore)",
+    "allergies": [
+      "None Reported"
+    ],
+    "chronicConditions": [
+      "Essential Hypertension",
+      "Senior Cardiac RPM",
+      "Monitored Remotely by Son (Aarav, Bengaluru)"
+    ],
+    "emailVerified": true,
+    "phoneVerified": true,
+    "createdAt": "2026-01-20T08:15:00.000Z",
+    "updatedAt": "2026-09-04T19:24:27.209Z",
+    "emergencyContact": {
+      "name": "Aarav Sharma",
+      "relationship": "Son (Bengaluru)",
+      "phone": "+91 98450 12345"
+    }
+  },
+  {
+    "id": "pt-in-58323",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra@healthtest.in",
+    "phone": "9876543210",
+    "passwordHash": "75f826e4e7f67ee416cd0aa145808dfc:0fda6288cbc905e7e2e9f1b4a376a78e78debd9e9b495bfe7712f48cd804b58f36fea95c44957afbf5d302af911443ac691a6a3e45a6d1aad2f1e4039ba84b8d",
+    "abhaId": "91-1118-5472-6017",
+    "pinCode": "400001",
+    "city": "Mumbai, Maharashtra",
+    "dob": "12 August 1995 (Age 31)",
+    "gender": "Male",
+    "bloodType": "B+",
+    "primaryPhysician": "Dr. Ananya Iyer, MD (AIIMS New Delhi)",
+    "allergies": [],
+    "chronicConditions": [
+      "General Wellness Monitoring (ABDM)"
+    ],
+    "emailVerified": false,
+    "phoneVerified": false,
+    "createdAt": "2026-09-04T19:24:39.283Z",
+    "updatedAt": "2026-09-04T19:24:39.283Z",
+    "emergencyContact": {
+      "name": "Emergency Kin",
+      "relationship": "Family Member",
+      "phone": "9876543210"
+    }
+  },
+  {
+    "id": "pt-in-81598",
+    "name": "Dr. Neha Verma",
+    "email": "neha.verma.1788549942298@healthtest.in",
+    "phone": "9811223344",
+    "passwordHash": "beec98786a1cda86094a3f4dcaa87721:e46d064e6da40b5efa78a4f0c9f9283f67d8e1e6d936b0229864d29ef5856822fa0fb927132ed50b761a0501d52df949c57b1cca9c4ebbe6b3a5dedb2aa09df7",
+    "abhaId": "91-7228-1437-4667",
+    "pinCode": "110029",
+    "city": "New Delhi, Delhi",
+    "dob": "12 August 1995 (Age 31)",
+    "gender": "Female",
+    "bloodType": "B+",
+    "primaryPhysician": "Dr. Ananya Iyer, MD (AIIMS New Delhi)",
+    "allergies": [],
+    "chronicConditions": [
+      "General Wellness Monitoring (ABDM)"
+    ],
+    "emailVerified": true,
+    "phoneVerified": false,
+    "createdAt": "2026-09-04T19:25:42.524Z",
+    "updatedAt": "2026-09-04T19:25:42.559Z",
+    "emergencyContact": {
+      "name": "Emergency Kin",
+      "relationship": "Family Member",
+      "phone": "9811223344"
+    }
+  },
+  {
+    "id": "pt-in-12461",
+    "name": "Mohit Yogeshkumar Mundke",
+    "email": "mohitmundke20@gmail.com",
+    "phone": "9767969701",
+    "passwordHash": "7d6c6e3580e1bce5b9d3a98685e60a7c:a23de21af643453f6835c156339a6b4ce6e1613afc95c39608dccc59f94b52b096f930f36d901aaf9ba59b783859c741632ad724c75ff67ca28e31b498be6ae9",
+    "abhaId": "91-2195-4471-2853",
+    "pinCode": "425105",
+    "city": "Jalgaon.Maharatra",
+    "dob": "12 August 1995 (Age 31)",
+    "gender": "Male",
+    "bloodType": "B+",
+    "primaryPhysician": "Dr. Ananya Iyer, MD (AIIMS New Delhi)",
+    "allergies": [],
+    "chronicConditions": [
+      "General Wellness Monitoring (ABDM)"
+    ],
+    "emailVerified": true,
+    "phoneVerified": false,
+    "createdAt": "2026-09-04T19:28:18.561Z",
+    "updatedAt": "2026-09-04T19:28:27.386Z",
+    "emergencyContact": {
+      "name": "Emergency Kin",
+      "relationship": "Family Member",
+      "phone": "9767969701"
+    }
+  }
+]

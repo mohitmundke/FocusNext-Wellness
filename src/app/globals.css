@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* ==========================================================================
+     FOCUSNEXT HEALTH Design Tokens — Light Theme Only (Strict Constraint)
+     Premium Swiss-Clinical Minimalist Palette
+     ========================================================================== */
+  
+  /* Backgrounds */
+  --background: #F8FAF9;
+  --background-subtle: #F0F4F2;
+  --surface: #FFFFFF;
+  --surface-hover: #F9FBFA;
+  
+  /* Text / Foregrounds (WCAG 2.1 AAA Compliant on #F8FAF9 and #FFFFFF) */
+  --foreground: #0F172A;          /* Slate 900 - Deep charcoal, high contrast (>15:1) */
+  --foreground-secondary: #334155;/* Slate 700 - Secondary text (>7:1 contrast) */
+  --foreground-muted: #475569;    /* Slate 600 - Metadata & labels (>5:1 contrast, WCAG AA compliant) */
+  
+  /* Brand Accent: Medical Botanical Sage (Strictly 1 accent color, used sparingly) */
+  --wellness: #1E5E4B;
+  --wellness-hover: #164738;
+  --wellness-dark: #12382C;
+  --wellness-light: #E8F3EE;
+  --wellness-secondary: #7FA899;
+  
+  /* Primary Action */
+  --primary: #0F172A;
+  --primary-hover: #1E293B;
+  
+  /* Borders & Dividers */
+  --border: #E2E8E4;
+  --border-light: #EEF2F0;
+  --border-focus: #1E5E4B;
+  
+  /* Component Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-subtle: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-card: 0 2px 8px -2px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(15, 23, 42, 0.03);
+  --shadow-elevated: 0 12px 24px -6px rgba(15, 23, 42, 0.08), 0 4px 8px -2px rgba(15, 23, 42, 0.03);
+}
+
+* {
+  border-color: var(--border);
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessible, crisp focus styling */
+:focus-visible {
+  outline: 2px solid var(--wellness);
+  outline-offset: 2px;
+}
+
+/* Minimalist, subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Custom clinical badge pulse */
+@keyframes subtle-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(0.95);
+  }
+}
+
+.animate-subtle-pulse {
+  animation: subtle-pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
