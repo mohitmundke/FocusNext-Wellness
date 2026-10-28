@@ -1,4 +1,4 @@
-﻿# dependencies
+# dependencies
 /node_modules
 /.pnpm-store
 
@@ -12,6 +12,7 @@
 # misc
 .DS_Store
 *.pem
+*.exe
 
 # debug
 npm-debug.log*
